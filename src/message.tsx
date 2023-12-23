@@ -1,4 +1,9 @@
 function Message(){
     //JSX: javascript XML
-    return <h1>Hello World</h1>;
+    const name="sanju";
+    if(name)
+        return <h1>Hello {name}</h1>;
+    return <h1>Hello</h1>
 }
+
+export default Message;
